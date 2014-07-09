@@ -33,14 +33,14 @@ class BeverageImageUploader < CarrierWave::Uploader::Base
 
   # Create different versions of your uploaded files:
   
-  # process :resize_to_fit => [640,640]
+   process :resize_to_fit => [640,640]
    
    version :thumb do
      process :resize_to_fit => [120, 120]
    end
    
    version :middle do
-     process :resize_to_fit => [320,320]
+     process :resize_to_fit => [320, 320]
    end
   # Add a white list of extensions which are allowed to be uploaded.
   # For images you might use something like this:
