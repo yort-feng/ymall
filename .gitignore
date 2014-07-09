@@ -1,0 +1,25 @@
+ntelliJ project files
+  .idea/
+  *.iml
+  
+  .DS_Store
+  
+  wx_key
+  public/uploads/
+  test/help/ticket.jpg
+  
+  public/system/
+  *.rdb
+  
+  # config/config.yml
+  
+  config/database.yml
+  config/proxy.cnf
+  
+  faye_server/tmp
+  faye_server/log
+
+app/api/twitter.rb
+
+config/heroku_env.rb
+
