@@ -166,6 +166,9 @@ GEM
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.3.1)
     ffi (1.9.3)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     fog (1.22.1)
       fog-brightbox
       fog-core (~> 1.22)
@@ -501,6 +504,7 @@ DEPENDENCIES
   factory_girl_rails (~> 4.2.1)
   faker (~> 1.1.2)
   faye-rails (= 1.0.0)
+  figaro
   fog
   grape
   growl
