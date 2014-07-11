@@ -320,3 +320,4 @@
 [07/09/14 15:58:01 +0800 troydeMac-mini.local (4330)] INFO : Doing deferred dependency-detection before Rack startup
 [07/09/14 15:58:34 +0800 troydeMac-mini.local (4330)] ERROR : Invalid license key, please contact support@newrelic.com
 [07/09/14 15:58:34 +0800 troydeMac-mini.local (4330)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[07/09/14 22:12:38 +0800 troydeMac-mini.local (4330)] INFO : Starting Agent shutdown

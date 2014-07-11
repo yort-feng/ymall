@@ -2577,3 +2577,76 @@ Processing by BeveragesController#index as HTML
   [1m[36mBeverage Load (0.2ms)[0m  [1mSELECT "beverages".* FROM "beverages"[0m
   Rendered beverages/index.html.erb within layouts/application (3.7ms)
 Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/beverages" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+Processing by BeveragesController#index as HTML
+  [1m[35mBeverage Load (0.2ms)[0m  SELECT "beverages".* FROM "beverages"
+  Rendered beverages/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 102ms (Views: 101.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/beverages.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 20:41:58 +0800
