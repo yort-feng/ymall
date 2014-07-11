@@ -1,6 +1,6 @@
 
  CarrierWave.configure do |config|
-  # if Rails.env.production?
+   if Rails.env.production?
      config.fog_credentials = {
        :provider               => 'AWS',                        # required
        :aws_access_key_id      => ENV["S3_KEY"],                        # required
@@ -9,7 +9,7 @@
      config.fog_directory  = 'beveras-image'                     # required bucket name    
      config.storage = :fog  
      config.fog_attributes = {'Cache-Control'=>'max-age=315576000'}  # optional, defaults to {}
-  # else
-  #   config.storage = :file
+   else
+     config.storage = :file
    end
  end
