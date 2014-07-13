@@ -11,4 +11,4 @@
   User.destroy_all
 
   #种子测试数据，部署到生产环境后务必改一下。
-  User.create(email: "yort.feng@gmail.com", password: "12345678")
+  User.create(email: "admin@test.com", password: "12345678",role:"admin")
