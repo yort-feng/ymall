@@ -33,6 +33,12 @@
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li>
+            <%= link_to "Beverage List",beverages_path %>
+          </li>
+          <li>
+            <%= link_to "Super Admin",rails_admin_path %>
+          </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <% if user_signed_in? %>
