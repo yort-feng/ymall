@@ -574,3 +574,79 @@
 [07/13/14 15:23:24 +0800 troydeMac-mini.local (5699)] INFO : Installing Rails 4 view instrumentation
 [07/13/14 15:23:24 +0800 troydeMac-mini.local (5699)] INFO : Installing Rails4 Error instrumentation
 [07/13/14 15:23:24 +0800 troydeMac-mini.local (5699)] INFO : Finished instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Starting the New Relic agent in "development" environment.
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] WARN : No configuration file found. Working directory = /Users/troy/oceanrails/ymall
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] WARN : Looked in these locations (based on defaults): /Users/troy/oceanrails/ymall/config/newrelic.yml, /Users/troy/oceanrails/ymall/newrelic.yml, /Users/troy/.newrelic/newrelic.yml, /Users/troy/newrelic.yml
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Environment: development
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : No known dispatcher detected.
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Application: development
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Installing ActiveRecord 4 instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Installing middleware-based Excon instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Installing Net instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Installing deferred Rack instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Installing Rack::Builder middleware instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Installing Rails 3+ middleware instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Installing Resque instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Installing Rails 4 Controller instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Installing Rails 4 view instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Installing Rails4 Error instrumentation
+[07/13/14 15:25:28 +0800 troydeMac-mini.local (5710)] INFO : Finished instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Starting the New Relic agent in "development" environment.
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] WARN : No configuration file found. Working directory = /Users/troy/oceanrails/ymall
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] WARN : Looked in these locations (based on defaults): /Users/troy/oceanrails/ymall/config/newrelic.yml, /Users/troy/oceanrails/ymall/newrelic.yml, /Users/troy/.newrelic/newrelic.yml, /Users/troy/newrelic.yml
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Environment: development
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : No known dispatcher detected.
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Application: development
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Installing ActiveRecord 4 instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Installing middleware-based Excon instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Installing Net instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Installing deferred Rack instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Installing Rack::Builder middleware instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Installing Rails 3+ middleware instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Installing Resque instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Installing Rails 4 Controller instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Installing Rails 4 view instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Installing Rails4 Error instrumentation
+[07/13/14 15:25:44 +0800 troydeMac-mini.local (5719)] INFO : Finished instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Starting the New Relic agent in "development" environment.
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] WARN : No configuration file found. Working directory = /Users/troy/oceanrails/ymall
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] WARN : Looked in these locations (based on defaults): /Users/troy/oceanrails/ymall/config/newrelic.yml, /Users/troy/oceanrails/ymall/newrelic.yml, /Users/troy/.newrelic/newrelic.yml, /Users/troy/newrelic.yml
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Environment: development
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : No known dispatcher detected.
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Application: development
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Installing ActiveRecord 4 instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Installing middleware-based Excon instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Installing Net instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Installing deferred Rack instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Installing Rack::Builder middleware instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Installing Rails 3+ middleware instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Installing Resque instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Installing Rails 4 Controller instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Installing Rails 4 view instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Installing Rails4 Error instrumentation
+[07/13/14 15:32:29 +0800 troydeMac-mini.local (5748)] INFO : Finished instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Starting the New Relic agent in "development" environment.
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] WARN : No configuration file found. Working directory = /Users/troy/oceanrails/ymall
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] WARN : Looked in these locations (based on defaults): /Users/troy/oceanrails/ymall/config/newrelic.yml, /Users/troy/oceanrails/ymall/newrelic.yml, /Users/troy/.newrelic/newrelic.yml, /Users/troy/newrelic.yml
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Environment: development
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : No known dispatcher detected.
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Application: development
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Installing ActiveRecord 4 instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Installing middleware-based Excon instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Installing Net instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Installing deferred Rack instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Installing Rack::Builder middleware instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Installing Rails 3+ middleware instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Installing Resque instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Installing Rails 4 Controller instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Installing Rails 4 view instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Installing Rails4 Error instrumentation
+[07/13/14 15:49:01 +0800 troydeMac-mini.local (5776)] INFO : Finished instrumentation
