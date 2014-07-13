@@ -35,7 +35,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <% if use_signed_in? %>
+          <% if user_signed_in? %>
           <li>
             <%= link_to current_user.email,"#" %>
           </li>
