@@ -45,7 +45,6 @@ class BeveragesController < ApplicationController
       if @beverage.update(beverage_params)
         format.html { redirect_to @beverage, notice: 'Beverage was successfully updated.' }
         format.json { head :no_content }
-        format.js
       else
         format.html { render action: 'edit' }
         format.json { render json: @beverage.errors, status: :unprocessable_entity }
@@ -60,6 +59,7 @@ class BeveragesController < ApplicationController
     respond_to do |format|
       format.html { redirect_to beverages_url }
       format.json { head :no_content }
+      format.js
     end
   end
 
