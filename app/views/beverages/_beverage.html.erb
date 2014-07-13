@@ -12,7 +12,7 @@
      Edit
   <% end %>
   &nbsp;&nbsp;
-  <%= link_to beverage,method: :delete,date:{ confirm: 'Are you sure?'} , :class => "btn btn-danger" do %>
+  <%= link_to beverage,method: :delete,date:{ confirm: 'Are you sure?'} ,:remote => true , :class => "btn btn-danger" do %>
     <span class="glyphicon glyphicon-remove-circle"></span>
       Destroy
   <% end %>
