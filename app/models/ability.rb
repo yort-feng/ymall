@@ -4,7 +4,7 @@ class Ability
   def initialize(user)
     can :read,all
     if user && user.admin?
-       can :manager, :all
+       can :manage, :all
     end
   end 
 end

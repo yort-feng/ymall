@@ -11,7 +11,7 @@ class User < ActiveRecord::Base
   end
 
   def show_name
-    "#{self.email} [#{self.role_name}]$"
+    "#{self.email} [#{self.role_name}]"
   end 
 
   def role_name
