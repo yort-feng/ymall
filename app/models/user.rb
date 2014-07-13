@@ -9,4 +9,13 @@ class User < ActiveRecord::Base
   def admin?
     self.role == "admin"
   end
+
+  def show_name
+    "#{self.email} [#{self.role_name}]$"
+  end 
+
+  def role_name
+    return "管理员" if admin?
+    return "普通用户"
+  end
 end
