@@ -1,0 +1,20 @@
+<%= content_tag_for(:tr, @beverages) do |beverage| %>
+  <td><%= link_to beverage do %>
+  <%= image_tag beverage.image.thumb.url %>
+<% end %>
+  </td>
+<td><%= beverage.name %></td>
+<td><%= beverage.price %></td>
+<td><%= beverage.memo %></td>
+<td>
+  <%= link_to edit_beverage_path(beverage),:class => "btn btn-default" do %>
+   <span class="glyphicon glyphicon-pencil"></span>
+     Edit
+  <% end %>
+  &nbsp;&nbsp;
+  <%= link_to beverage,method: :delete,date:{ confirm: 'Are you sure?'} , :class => "btn btn-danger" do %>
+    <span class="glyphicon glyphicon-remove-circle"></span>
+      Destroy
+  <% end %>
+</td>
+<% end %>
