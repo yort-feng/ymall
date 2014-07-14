@@ -735,3 +735,27 @@
 [07/13/14 18:05:00 +0800 troydeMac-mini.local (6550)] INFO : Installing Rails4 Error instrumentation
 [07/13/14 18:05:00 +0800 troydeMac-mini.local (6550)] INFO : Finished instrumentation
 [07/13/14 18:05:01 +0800 troydeMac-mini.local (6550)] INFO : Doing deferred dependency-detection before Rack startup
+[07/13/14 18:05:51 +0800 troydeMac-mini.local (6528)] INFO : Starting Agent shutdown
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Starting the New Relic agent in "development" environment.
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] WARN : No configuration file found. Working directory = /Users/troy/oceanrails/ymall
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] WARN : Looked in these locations (based on defaults): /Users/troy/oceanrails/ymall/config/newrelic.yml, /Users/troy/oceanrails/ymall/newrelic.yml, /Users/troy/.newrelic/newrelic.yml, /Users/troy/newrelic.yml
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Environment: development
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : No known dispatcher detected.
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Application: development
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Installing ActiveRecord 4 instrumentation
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Installing middleware-based Excon instrumentation
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Installing Net instrumentation
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Installing deferred Rack instrumentation
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Installing Rack::Builder middleware instrumentation
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Installing Rails 3+ middleware instrumentation
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Installing Resque instrumentation
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Installing Rails 4 Controller instrumentation
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Installing Rails 4 view instrumentation
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Installing Rails4 Error instrumentation
+[07/14/14 20:30:44 +0800 troydeMac-mini.local (8349)] INFO : Finished instrumentation
+[07/14/14 20:30:45 +0800 troydeMac-mini.local (8349)] INFO : Doing deferred dependency-detection before Rack startup
+[07/14/14 20:30:55 +0800 troydeMac-mini.local (8349)] ERROR : Invalid license key, please contact support@newrelic.com
+[07/14/14 20:30:55 +0800 troydeMac-mini.local (8349)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[07/14/14 20:31:42 +0800 troydeMac-mini.local (8349)] INFO : Starting Agent shutdown

@@ -1,4 +1,4 @@
-<%= content_tag_for(:tr, @beverages) do |beverage| %>
+<%= content_tag_for(:tr, beverage) do |beverage| %>
   <td><%= link_to beverage do %>
   <%= image_tag beverage.image.thumb.url %>
 <% end %>
