@@ -1,6 +1,6 @@
 Ymall::Application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
-  devise_for :users
+  devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks"}
   resources :beverages
 
   # The priority is based upon order of creation: first created -> highest priority.
