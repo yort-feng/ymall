@@ -176,3 +176,6 @@ gem "paranoia", "~> 2.0"
 gem "fog"
 
 gem "figaro"
+gem 'omniauth'
+
+gem "omniauth-google-oauth2"
