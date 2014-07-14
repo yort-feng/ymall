@@ -759,3 +759,22 @@
 [07/14/14 20:30:55 +0800 troydeMac-mini.local (8349)] ERROR : Invalid license key, please contact support@newrelic.com
 [07/14/14 20:30:55 +0800 troydeMac-mini.local (8349)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
 [07/14/14 20:31:42 +0800 troydeMac-mini.local (8349)] INFO : Starting Agent shutdown
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Starting the New Relic agent in "development" environment.
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] WARN : No configuration file found. Working directory = /Users/troy/oceanrails/ymall
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] WARN : Looked in these locations (based on defaults): /Users/troy/oceanrails/ymall/config/newrelic.yml, /Users/troy/oceanrails/ymall/newrelic.yml, /Users/troy/.newrelic/newrelic.yml, /Users/troy/newrelic.yml
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Environment: development
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : No known dispatcher detected.
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Application: development
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Installing ActiveRecord 4 instrumentation
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Installing middleware-based Excon instrumentation
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Installing Net instrumentation
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Installing deferred Rack instrumentation
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Installing Rack::Builder middleware instrumentation
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Installing Rails 3+ middleware instrumentation
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Installing Resque instrumentation
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Installing Rails 4 Controller instrumentation
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Installing Rails 4 view instrumentation
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Installing Rails4 Error instrumentation
+[07/14/14 20:40:36 +0800 troydeMac-mini.local (8437)] INFO : Finished instrumentation
